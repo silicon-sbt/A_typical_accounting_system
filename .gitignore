@@ -1,0 +1,13 @@
+# Python 产生的缓存垃圾
+__pycache__/
+*.pyc
+
+# 数据库文件（不要把真实账本传上去）
+*.db
+SQLite/
+
+# 本地环境变量（以后存 API Key 用）
+.env
+
+# 编辑器的本地配置
+.vscode/git rm -r --cached .
